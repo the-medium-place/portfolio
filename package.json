@@ -1,0 +1,25 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portolio website. It was built to showcase the skills I learned from the Full TIme UW Coding Bootcamp. It is currently \"in-progress\" and will see major updates in the weeks to come. Feel free to email with comments or questions!",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-medium-place/responsive-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-medium-place/responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/the-medium-place/responsive-portfolio#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
