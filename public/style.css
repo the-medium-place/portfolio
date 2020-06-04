@@ -299,7 +299,7 @@ a:hover {
     background-color: rgb(200, 200, 200)
 }
 
-#submit-btn {
+.submit-btn {
     border: 3px solid rgba(238, 238, 0, 0.719);
     background: rgb(15, 15, 15);
     font-weight: bold;
