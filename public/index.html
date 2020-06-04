@@ -11,8 +11,8 @@
 
 
     <!-- Google Font Link -->
-  
-    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Special+Elite&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Sketch&display=swap"
         rel="stylesheet">
 
@@ -56,13 +56,16 @@
                     <a href="#" class="nav-link"> <i class="fa fa-facebook" target="_blank"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.instagram.com/this.is.the.medium.place/" class="nav-link" target="_blank"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/this.is.the.medium.place/" class="nav-link" target="_blank"> <i
+                            class="fa fa-instagram"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/zachary-stowell" class="nav-link" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/zachary-stowell" class="nav-link" target="_blank"> <i
+                            class="fa fa-linkedin"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://github.com/the-medium-place" class="nav-link" target="_blank"> <i class="fa fa-github"></i></a>
+                    <a href="https://github.com/the-medium-place" class="nav-link" target="_blank"> <i
+                            class="fa fa-github"></i></a>
                 </li>
             </ul>
         </div>
@@ -75,8 +78,11 @@
         <!-- opening section -->
         <div class="row" style="margin-bottom: 60vh;">
             <div class="col-md-5">
-                <p class="opening-blurb">Zac is a Full-Stack web developer and with training from the <a
-                        href="https://bootcamp.uw.edu/">UW Coding Bootcamp</a>.<br><br>He has experience working in HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, Database Theory, MongoDB/Mongoose, MySQL/Sequelize, Command Line, and Git. He also dabbles in a few other languages including Python and ASL.
+                <p class="opening-blurb">Hello! My name is Zac and I'm a Full-Stack web developer and with training from
+                    the <a href="https://bootcamp.uw.edu/">UW Coding Bootcamp</a> ,where I gained experience with HTML5,
+                    CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, Database Theory, MongoDB/Mongoose,
+                    MySQL/Sequelize, Command Line, and Git. I also like to dabble in a few other languages including
+                    Python and ASL.
                 </p>
             </div>
             <div class="col-md-7">
@@ -98,7 +104,8 @@
                     <div class="proj-title"></div>
                     <p id="project-desc" class="info-text"></p>
                     <h4 class="info-text">View the GitHub repo &lt;<a id="github" target="_blank">HERE</a>&gt;</h4>
-                    <h4 class="info-text">View the deployed project &lt;<a id="deployed" target="_blank">HERE</a>&gt;</h4>
+                    <h4 class="info-text">View the deployed project &lt;<a id="deployed" target="_blank">HERE</a>&gt;
+                    </h4>
                 </div>
             </div>
             <div class="port-logo-box text-center" id="logo-box">
@@ -113,10 +120,11 @@
             <div class="row portfolio-container">
                 <div class="portfolio-column col">
                     <img src="./images/markit.png" class="hover-me" id="markit" loading="lazy" href="#portfolio-box">
-                    <img src="./images/weather-dashboard-screenshot.png" class="hover-me" id="weatherdashboard" loading="lazy">
-                    <img src="./images/workdayscheduler-screenshot.png" class="hover-me" id="workdayscheduler" loading="lazy">
+                    <img src="./images/weather-dashboard-screenshot.png" class="hover-me" id="weatherdashboard"
+                        loading="lazy">
+                    <img src="./images/workdayscheduler-screenshot.png" class="hover-me" id="workdayscheduler"
+                        loading="lazy">
                     <img src="./images/employeeManager.png" class="hover-me" id="employeemanager" loading="lazy">
-
                 </div>
                 <div class="portfolio-column col">
                     <img src="./images/googleBooks.png" class="hover-me" id="googlebooks" loading="lazy">
@@ -126,16 +134,11 @@
                 </div>
                 <div class="portfolio-column col">
                     <img src="./images/toGather.png" class="hover-me" id="togather" loading="lazy">
-                    <img src="./images/socialdistance-screenshot-crop.png" class="hover-me" id="socialdistance" loading="lazy">
+                    <img src="./images/socialdistance-screenshot-crop.png" class="hover-me" id="socialdistance"
+                        loading="lazy">
                     <img src="./images/READMEgenerator.gif" class="hover-me" id="readmegenerator" loading="lazy">
-
                     <img src="./images/burgerapp.png" class="hover-me" id="burgerapp" loading="lazy">
                 </div>
-                <!-- <div class="portfolio-column col">
-                    <img src="./images/github-logo.png" class="hover-me" id="">
-                    <img src="./images/github-logo.png" class="hover-me" id="">
-                    <img src="./images/github-logo.png" class="hover-me" id="">
-                </div> -->
             </div>
         </div>
 
@@ -157,41 +160,56 @@
                     </div>
                 </div>
                 <!-- start email form -->
-                <form id="contactme-form" action="./contact.php" method="post">
+                <form action="https://mailthis.to/zgs-portfolio" method="POST"
+                    encType="multipart/form-data">
 
                     <!-- input user name -->
                     <div class="form-group pt-2">
                         <label for="cf-name">Name:</label>
-                        <input type="text" name="cf-name" class="form-control form-color" id="sender-name" placeholder="what should we call ya'?">
+                        <input type="text" name="cf-name" class="form-control form-color" id="sender-name"
+                            placeholder="what should we call ya'?">
                     </div>
 
                     <!-- input user email -->
                     <div class="form-group">
                         <label for="cf-email">E-Mail:</label>
-                        <input type="email" name="cf-email" class="form-control form-color" id="sender-email" placeholder="stuff@thing.wut">
+                        <input type="email" name="cf-email" class="form-control form-color" id="sender-email"
+                            placeholder="stuff@thing.wut">
                     </div>
 
                     <!-- input user message -->
                     <div class="form-group">
                         <label for="cf-message">Message:</label>
-                        <textarea class="form-control form-color" name="cf-message" rows="10" id="sender-message" placeholder="If you're calling for the complaints department, please continue to hold..."></textarea>
+                        <textarea class="form-control form-color" name="cf-message" rows="10" id="sender-message"
+                            placeholder="If you're calling for the complaints department, please continue to hold..."></textarea>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="hidden" name="_subject" value="Contact form submitted">
+                        <input type="hidden" name="_after" value="https://zgs-portfolio.herokuapp.com/#contact-form">
+                        <!-- <input type="hidden" name="_honeypot" value="">
+                        <input type="hidden" name="_confirmation" value=""> -->
                     </div>
 
                     <!-- submit button -->
                     <input type="submit" class="btn btn-primary" id="submit-btn" value="Send It!">
-
                 </form>
 
+
+                <!-- <form action="https://mailthis.to/zgs-portfolio" method="POST" encType="multipart/form-data">
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="email" name="_replyto" placeholder="Your email">
+                    <textarea name="message" placeholder="Enter your message here"></textarea>
+                    <input type="file" name="file" placeholder="Attachments (optional)">
+                    <input type="hidden" name="_subject" value="Contact form submitted">
+                    <input type="hidden" name="_after" value="#">
+                    <input type="hidden" name="_honeypot" value="">
+                    <input type="hidden" name="_confirmation" value="">
+                    <input type="submit" value="Send">
+                </form> -->
             </div>
         </div>
-
-
-
     </div> <!-- end of container div -->
-
-    <div>
-        <img src="./images/cautionTape.png" alt="construction caution tape" id="under-construction">
-    </div>
 
 
     <!-- side nav bar -->
@@ -221,14 +239,12 @@
         crossorigin="anonymous"></script>
 
     <!-- JQUERY CDN -->
-    <script
-    src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <!-- Animate on Scroll JS link -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js">
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js">
         AOS.init();
-    </script>
+    </script> -->
 
     <script src="logic.js"></script>
 

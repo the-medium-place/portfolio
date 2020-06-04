@@ -222,7 +222,7 @@ a:hover {
     color: rgba(238, 238, 0, 0.719);
 }
 
-#port-click-info, .port-logo-box {
+.info-box, .port-logo-box {
 
     color: rgb(185, 185, 185);
     flex-direction: row;
@@ -231,6 +231,10 @@ a:hover {
     padding: 10px;
     display: none;
     margin-bottom: 4vw;
+}
+
+#port-click-info {
+    height: auto;
 }
 
 .port-logo-box {
