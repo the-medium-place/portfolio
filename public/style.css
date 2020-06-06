@@ -295,7 +295,7 @@ a:hover {
 .form-color {
     background-color: rgb(185, 185, 185)
 }
-.form-colo:active {
+.form-color:active {
     background-color: rgb(200, 200, 200)
 }
 
@@ -303,6 +303,13 @@ a:hover {
     border: 3px solid rgba(238, 238, 0, 0.719);
     background: rgb(15, 15, 15);
     font-weight: bold;
+}
+
+.submit-btn:active:hover {
+    /* border: 3px solid rgba(238, 238, 0, 0.719); */
+    background: 3px solid rgba(238, 238, 0, 0.719);
+
+
 }
 
 
