@@ -189,7 +189,7 @@ a:hover {
     .portfolio-column {
         margin: 0 auto;
         flex: 50%;
-        max-width: 50%;
+        max-width: 33%;
     }
 
     .opening-blurb {
@@ -200,6 +200,14 @@ a:hover {
         margin: 0 auto;
         max-width: 80%;
     }
+
+    #click-img {
+        max-width: 50%;
+    }
+
+    .icon-link {
+        display: inline;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -209,11 +217,10 @@ a:hover {
     .portfolio-column {
         margin: 0 auto;
         flex: 90%;
-        max-width: 50%;
+        max-width: 33%;
     }
     #click-img {
         margin: 0 auto;
-        flex: 50%;
         max-width: 50%;
     }
 }
