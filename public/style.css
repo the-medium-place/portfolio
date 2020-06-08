@@ -191,14 +191,30 @@ a:hover {
         flex: 50%;
         max-width: 50%;
     }
+
+    .opening-blurb {
+        font-size: 1em;
+    }
+
+    #top-img {
+        margin: 0 auto;
+        max-width: 80%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
+ 
     .portfolio-column {
-        flex: 100%;
-        max-width: 100%;
+        margin: 0 auto;
+        flex: 90%;
+        max-width: 50%;
+    }
+    #click-img {
+        margin: 0 auto;
+        flex: 50%;
+        max-width: 50%;
     }
 }
 

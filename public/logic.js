@@ -96,7 +96,6 @@ const projects = [{
 
 }];
 
-
 $("body").click(function (event) {
     // console.log(event.target);
     const portLogoDiv = $("#logo-box");
@@ -126,7 +125,6 @@ $(".hover-me").click(function () {
 
     for (i in projects) {
         if (projects[i].id === clickID) {
-            // console.log()
             github.attr("href", projects[i].github);
             deployed.attr("href", projects[i].deployed);
             desc.text(projects[i].description);
@@ -136,7 +134,6 @@ $(".hover-me").click(function () {
     $("#logo-box").attr("style", "display: none;");
     $("#port-click-info").attr("style", "display: flex;");
 })
-
 
 
 // =====================
@@ -150,13 +147,11 @@ $(".hover-me").click(function () {
 //     const userEmail = $("#sender-email").val().trim();
 //     const userMessage = $("#sender-message").val().trim();
 //     console.log(username, userEmail, userMessage)
-
 //     const messageObj = {
 //         username: $("#sender-name").val().trim(),
 //         userEmail: $("#sender-email").val().trim(),
 //         userMessage: $("#sender-message").val().trim()
 //     }
-
 //     $.ajax({
 //         url: "/contactme",
 //         method: "POST",
@@ -165,5 +160,4 @@ $(".hover-me").click(function () {
 //         console.log(status);
 //         location.reload();
 //     })
-
 // })
