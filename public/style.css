@@ -46,9 +46,13 @@ a:hover {
 .switch-font:hover {
     font-family: 'Londrina Sketch', cursive;
 }
+
 /* ==================== */
+
 /* Return to Top button */
+
 /* ==================== */
+
 .top-button {
     color: rgb(150, 150, 150);
     position: fixed;
@@ -133,7 +137,7 @@ a:hover {
 }
 
 .opening-blurb a {
-    color: rgb(185, 185, 185);  
+    color: rgb(185, 185, 185);
 }
 
 .opening-blurb a:hover {
@@ -151,7 +155,7 @@ a:hover {
 
 /* ================== */
 
- .portfolio-container {
+.portfolio-container {
     /* border: 1px solid white; */
     /* height: 75vh; */
     /* width: auto; */
@@ -162,11 +166,12 @@ a:hover {
     box-shadow: 3px 3px 8px 8px grey;
     padding: 10px;
     background: grey;
-} 
+}
 
 .portfolio-box {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    ;
 }
 
 .portfolio-column {
@@ -178,7 +183,6 @@ a:hover {
 .portfolio-column img {
     max-width: 100%;
     margin-top: 8px;
-   
     /* width: 200px; */
 }
 
@@ -195,15 +199,16 @@ a:hover {
 .info-links {
     height: auto;
 }
-.info-links a{
+
+.info-links a {
     color: rgb(150, 150, 150)
 }
+
 .info-links a:hover {
     color: rgba(238, 238, 0, 0.719);
 }
 
 .info-box, .port-logo-box {
-
     color: rgb(185, 185, 185);
     flex-direction: row;
     justify-content: start;
@@ -247,7 +252,7 @@ a:hover {
 }
 
 #click-img {
-    max-width: 100%;   
+    max-width: 100%;
 }
 
 #logo-box {
@@ -273,6 +278,7 @@ a:hover {
 .form-color {
     background-color: rgb(185, 185, 185)
 }
+
 .form-color:active {
     background-color: rgb(200, 200, 200)
 }
@@ -299,8 +305,8 @@ a:hover {
 
 .quote-box img {
     /* display: block; */
-    border-radius: 50%;  
-    max-width: 100%; 
+    border-radius: 50%;
+    max-width: 100%;
 }
 
 .footnote {
@@ -317,7 +323,6 @@ a:hover {
     height: auto;
 }
 
-
 /* Responsive layout - makes a two column-layout instead of three columns */
 
 @media screen and (max-width: 800px) {
@@ -326,20 +331,16 @@ a:hover {
         flex: 50%;
         max-width: 33%;
     }
-
     .opening-blurb {
         font-size: 1em;
     }
-
     #top-img {
         margin: 0 auto;
         max-width: 80%;
     }
-
     #click-img {
         max-width: 50%;
     }
-
     .quote-box {
         display: flex;
         flex-direction: column;
@@ -352,36 +353,85 @@ a:hover {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
- 
     .portfolio-column {
         margin: 0 auto;
         flex: 90%;
         max-width: 33%;
     }
-
     #click-img {
         margin: 0 auto;
         max-width: 50%;
     }
-
     .top-img {
         margin-top: 10px;
         float: right;
         max-width: 50%;
     }
-
     .top-box {
         display: flex;
         flex-direction: row;
     }
 }
 
+.fade-in {
+    animation: fadeIn ease .8s;
+    -webkit-animation: fadeIn ease .8s;
+    -moz-animation: fadeIn ease .8s;
+    -o-animation: fadeIn ease .8s;
+    -ms-animation: fadeIn ease .8s;
+}
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { 
-    transform: scale(1.1); 
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
     /* transform: scaleX(3.0), scaleY(5.0); */
     /* transform: scaleY(5.0); */
 }
-
