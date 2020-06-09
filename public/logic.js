@@ -135,7 +135,6 @@ $(".hover-me").click(function () {
     $("#port-click-info").attr("style", "display: flex;");
 })
 
-
 // =====================
 // CONTACT ME FORM SETUP
 // =====================
