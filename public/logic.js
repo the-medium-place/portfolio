@@ -138,7 +138,6 @@ $(".hover-me").click(function () {
 // =====================
 // CONTACT ME FORM SETUP
 // =====================
-
 // $("#contactme-form").on("submit", function (event) {
 //     event.preventDefault();
 //     console.log('clicked')
@@ -160,3 +159,6 @@ $(".hover-me").click(function () {
 //         location.reload();
 //     })
 // })
+// HTML CSS JSResult
+// EDIT ON
+
