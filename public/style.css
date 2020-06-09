@@ -182,55 +182,6 @@ a:hover {
     /* width: 200px; */
 }
 
-/* Responsive layout - makes a two column-layout instead of three columns */
-
-@media screen and (max-width: 800px) {
-    .portfolio-column {
-        margin: 0 auto;
-        flex: 50%;
-        max-width: 33%;
-    }
-
-    .opening-blurb {
-        font-size: 1em;
-    }
-
-    #top-img {
-        margin: 0 auto;
-        max-width: 80%;
-    }
-
-    #click-img {
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
- 
-    .portfolio-column {
-        margin: 0 auto;
-        flex: 90%;
-        max-width: 33%;
-    }
-    #click-img {
-        margin: 0 auto;
-        max-width: 50%;
-    }
-
-    .top-img {
-        margin-top: 10px;
-        float: right;
-        max-width: 50%;
-    }
-
-    .top-box {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
 .port-info-img {
     max-width: 100%;
     margin: 10px;
@@ -366,5 +317,63 @@ a:hover {
     height: auto;
 }
 
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+
+@media screen and (max-width: 800px) {
+    .portfolio-column {
+        margin: 0 auto;
+        flex: 50%;
+        max-width: 33%;
+    }
+
+    .opening-blurb {
+        font-size: 1em;
+    }
+
+    #top-img {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    #click-img {
+        max-width: 50%;
+    }
+
+    .quote-box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 90vw;
+        margin-bottom: 8vh;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+ 
+    .portfolio-column {
+        margin: 0 auto;
+        flex: 90%;
+        max-width: 33%;
+    }
+
+    #click-img {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+    .top-img {
+        margin-top: 10px;
+        float: right;
+        max-width: 50%;
+    }
+
+    .top-box {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 
