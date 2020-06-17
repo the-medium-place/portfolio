@@ -117,9 +117,8 @@ $("body").click(function (event) {
 })
 
 $(".hover-me").click(function () {
-    console.log($(this).attr("id"));
     $("#port-click-info").attr("style", "display: none;");
-    console.log($("#port-click-info").attr("style"))
+    // console.log($("#port-click-info").attr("style"))
 
     const clickID = $(this).attr("id");
     const clickSRC = $(this).attr("src");
