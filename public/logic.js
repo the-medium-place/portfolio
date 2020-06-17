@@ -42,7 +42,7 @@ const projects = [{
 {
     id: "codequiz",
     github: "https://github.com/the-medium-place/code-quiz",
-    deployed: "https://github.com/the-medium-place/code-quiz",
+    deployed: "https://the-medium-place.github.io/code-quiz/",
     description: "The Ninja Turtles Quiz is retro-themed quiz game. When the start button is pressed the user is presented with a series of knowledge questions about the Teenage Mutant Ninja Turtles!",
     title: "Ninja Turtles Quiz"
 
@@ -58,7 +58,7 @@ const projects = [{
 {
     id: "passwordgenerator",
     github: "https://github.com/the-medium-place/random-password",
-    deployed: "https://github.com/the-medium-place/random-password",
+    deployed: "https://the-medium-place.github.io/random-password/",
     description: "This application generates a random password based on input from the user.",
     title: "Random Password Generator"
 
@@ -66,7 +66,7 @@ const projects = [{
 {
     id: "burgerapp",
     github: "https://github.com/the-medium-place/burger",
-    deployed: "https://github.com/the-medium-place/burger",
+    deployed: "https://kinda-good-burger.herokuapp.com/",
     description: "Make a list of all the burger's you would want to eat! Then, with the click of a button you can place the burger on your list of 'Burger Conquests'. This app utilizes Handlebars JS for rendering and MySQL for the database. I appreciated how this assignment didn't pretend to be anything useful. It's just a burger list.",
     title: "Burger Listing"
 
@@ -93,6 +93,14 @@ const projects = [{
     deployed: "https://awesome-mark-it.herokuapp.com/",
     description: "This full-stack application provides a way for users to search for local farmer's markets as well as create a vendor profile which allows the user to list and sell products - creating a way for consumers to get their farmer's market shopping done at a safe 'social distance'.  Items created appear on the app's map function, and users can favorite a vendor, item or market and have it appear on their profile page. Created using Sequelize, Node JS, Express JS and React.",
     title: "Mark-It"
+
+},
+{
+    id: "employeeOrganizer",
+    github: "https://github.com/the-medium-place/react-employee-directory",
+    deployed: "https://infinite-gorge-44449.herokuapp.com/",
+    description: "This application utilized the Random User API to create a table of fake employees. The front-end is built with ReactJS and allows the user to organize the resultant employees by Name or Location as well as to search the employees by any data with real-time results.",
+    title: "Employee Organizer"
 
 }];
 
