@@ -20,6 +20,11 @@ a {
     color: rgb(185, 185, 185);
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
 a:hover {
     text-decoration: none;
     color: rgba(238, 238, 0, 0.719);
