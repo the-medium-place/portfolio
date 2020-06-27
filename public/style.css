@@ -176,7 +176,10 @@ a:hover {
 .portfolio-box {
     display: flex;
     flex-direction: column;
-    ;
+}
+
+#portfolio-box {
+    margin: 0;
 }
 
 .portfolio-column {
