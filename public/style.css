@@ -129,11 +129,23 @@ a:hover {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    transition: all .2s ease-in-out;
 }
 
 .hover-me:hover {
     filter: none;
+    transform: scale(1.1);
 }
+
+/* .grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+     /*transform: scaleX(3.0), scaleY(5.0); 
+     /*transform: scaleY(5.0); 
+} */
 
 .opening-blurb {
     font-size: 2em;
@@ -434,12 +446,3 @@ a:hover {
     }
 }
 
-.grow {
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover {
-    transform: scale(1.1);
-    /* transform: scaleX(3.0), scaleY(5.0); */
-    /* transform: scaleY(5.0); */
-}
