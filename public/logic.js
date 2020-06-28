@@ -74,7 +74,7 @@ const projects = [{
 {
     id: "fitnessmonkey",
     github: "https://github.com/the-medium-place/fitness-tracker",
-    deployed: "https://awesome-fitness-tracker.herokuapp.com/",
+    deployed: "https://awesome-monkey-fitness.herokuapp.com/",
     description: "This is a simple fitness tracker app that utilizes Node JS, Handlebars and Mongoose DB to allow a user to create workout regimens and then add/edit/delete the individual exercises within. My test data while building consistently focused, for some reason, on eating bananas. So, I called the app Fitness Monkey!",
     title: "Fitness Monkey"
 
