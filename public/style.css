@@ -153,13 +153,13 @@ a:hover {
     color: rgb(185, 185, 185);
 }
 
-.opening-blurb a {
+/* .opening-blurb a {
     color: rgb(185, 185, 185);
 }
 
 .opening-blurb a:hover {
     color: rgba(238, 238, 0, 0.719);
-}
+} */
 
 #top-img {
     width: 100%;
