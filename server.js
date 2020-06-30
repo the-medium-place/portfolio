@@ -29,7 +29,7 @@ app.post('/contactme', function ({ body }, res){
   const msg = {
     to: 'zgstowell@gmail.com',
     from: 'zgstowell@gmail.com',
-    subject: 'Sending with Twilio SendGrid is Fun',
+    subject: `PORTFOLIO MESSAGE from ${body.username}`,
     text: `Hey Zac! You've received a message! From: ${username}, ${userEmail} || Message: ${userMessage}`,
     html: `Hey Zac! You've received a message!<br><br>From: ${username}<br>Email: ${userEmail}<br><br>Message: ${userMessage}`,
   };

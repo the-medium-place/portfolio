@@ -1,6 +1,7 @@
 
 const portImg = $(".hover-me");
 const portfolioDiv = $("#port-click-info");
+
 const projects = [{
     id: "socialdistance",
     github: "https://github.com/bbelka/covidDistractions",
@@ -162,27 +163,28 @@ $(".hover-me").click(function () {
 // =====================
 // CONTACT ME FORM SETUP
 // =====================
-// $("#contactme-form").on("submit", function (event) {
-//     event.preventDefault();
-//     console.log('clicked')
-//     const username = $("#sender-name").val().trim();
-//     const userEmail = $("#sender-email").val().trim();
-//     const userMessage = $("#sender-message").val().trim();
-//     console.log(username, userEmail, userMessage)
-//     const messageObj = {
-//         username: $("#sender-name").val().trim(),
-//         userEmail: $("#sender-email").val().trim(),
-//         userMessage: $("#sender-message").val().trim()
-//     }
-//     $.ajax({
-//         url: "/contactme",
-//         method: "POST",
-//         data: messageObj
-//     }).then(function (res) {
-//         console.log(status);
-//         location.reload();
-//     })
-// })
+$("#contactme-form").on("submit", function (event) {
+    event.preventDefault();
+    // console.log('clicked')
+    const username = $("#sender-name").val().trim();
+    const userEmail = $("#sender-email").val().trim();
+    const userMessage = $("#sender-message").val().trim();
+    // console.log(username, userEmail, userMessage)
+    const messageObj = {
+        username: $("#sender-name").val().trim(),
+        userEmail: $("#sender-email").val().trim(),
+        userMessage: $("#sender-message").val().trim()
+    }
+    $.ajax({
+        url: "/contactme",
+        method: "POST",
+        data: messageObj
+    })
+
+    setTimeout(function() {
+        window.location.reload();
+   },0);
+})
 // HTML CSS JSResult
 // EDIT ON
 
