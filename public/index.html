@@ -27,13 +27,13 @@
 
     <!-- Favicon Link -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<link rel="icon" type="image/png" href="favicon2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="favicon2.png">
 </head>
 
 <body>
@@ -95,7 +95,8 @@
                     Python and ASL.
                 </p>
                 <!-- <p class="opening-blurb"> -->
-                <a href="./files/ATSResume.pdf" target="_blank"><button class="btn btn-primary submit-btn" value="here">See my Resume</button></a>
+                <a href="./files/ZacStowell.pdf" target="_blank"><button class="btn btn-primary submit-btn"
+                        value="here">See my Resume</button></a>
                 <!-- </p> -->
                 <br>
                 <br>
@@ -103,12 +104,13 @@
             <figure class="col-md-7">
 
                 <img src="./images/Seattle-Brand-Headshot-Photographer-35.jpg" class="grayscale top-img" id="top-img">
-                <figcaption>Photos by <a href="http://www.inspirebydanielle.com">Danielle Barnum Photography</a></figcaption>
+                <figcaption>Photos by <a href="http://www.inspirebydanielle.com">Danielle Barnum Photography</a>
+                </figcaption>
             </figure>
         </div>
 
         <!-- BEGIN QUOTE BOXES -->
-<!-- 
+        <!-- 
         <div class="quote-box">
             <div class="quote-img">
 
@@ -207,7 +209,7 @@
                 <span id="port-logo" class="switch-font ">Portfolio!</span>
                 <br>
                 <p style="color: rgba(238, 238, 0, 0.719);"><strong>
-                    Click an image below to see more!
+                        Click an image below to see more!
                 </p></strong>
             </div>
 
@@ -215,8 +217,10 @@
             <div class="row portfolio-container">
                 <div class="portfolio-column col">
                     <img src="./images/screenshots/markitScreenshot-min.jpeg" class="hover-me" id="markit">
-                    <img src="./images/screenshots/weather-dashboard-screenshot-min.jpeg" class="hover-me" id="weatherdashboard">
-                    <img src="./images/screenshots/workdayscheduler-screenshot-min.jpeg" class="hover-me" id="workdayscheduler">
+                    <img src="./images/screenshots/weather-dashboard-screenshot-min.jpeg" class="hover-me"
+                        id="weatherdashboard">
+                    <img src="./images/screenshots/workdayscheduler-screenshot-min.jpeg" class="hover-me"
+                        id="workdayscheduler">
                     <img src="./images/screenshots/employeeManager-min.jpeg" class="hover-me" id="employeemanager">
                 </div>
                 <div class="portfolio-column col">
@@ -227,7 +231,8 @@
                 </div>
                 <div class="portfolio-column col">
                     <img src="./images/screenshots/toGather-min.jpeg" class="hover-me" id="togather">
-                    <img src="./images/screenshots/socialdistance-screenshot-crop-min.jpeg" class="hover-me" id="socialdistance">
+                    <img src="./images/screenshots/socialdistance-screenshot-crop-min.jpeg" class="hover-me"
+                        id="socialdistance">
                     <img src="./images/screenshots/employeeOrganizer-min.jpeg" class="hover-me" id="employeeOrganizer">
                     <img src="./images/screenshots/burgerapp-min.jpeg" class="hover-me" id="burgerapp">
                 </div>
@@ -249,40 +254,42 @@
                     <div class="port-logo-box col-12 mt-4 mb-4 text-center">
                         <h2 class="switch-font contact-logo">Reach Out</h2>
                         <br>
-                        <p>Contact me at <a href="mailto:zgstowell@gmail.com" target="_blank"><strong>zgstowell@gmail.com</strong></a> - Or use the form below!</p>
+                        <p>Contact me at <a href="mailto:zgstowell@gmail.com"
+                                target="_blank"><strong>zgstowell@gmail.com</strong></a> - Or use the form below!</p>
                         <hr>
                     </div>
                 </div>
                 <!-- start email form -->
 
-                    <!-- LINE BELOW IS FOR MAILTHIS.TO ACTION -->
-                    <!-- <form action="https://mailthis.to/zgs-portfolio" method="POST" encType="multipart/form-data"> -->
+                <!-- LINE BELOW IS FOR MAILTHIS.TO ACTION -->
+                <!-- <form action="https://mailthis.to/zgs-portfolio" method="POST" encType="multipart/form-data"> -->
 
-                    <!-- LINE BELOW IS FOR PHP ACTION -->
-                    <!-- <form action="./contact.php" method="POST"> -->
-                    
-                    <!-- LINE BELOW IS FOR SENDGRID EMAIL ACTION -->
-                    <form id="contactme-form">
+                <!-- LINE BELOW IS FOR PHP ACTION -->
+                <!-- <form action="./contact.php" method="POST"> -->
+
+                <!-- LINE BELOW IS FOR SENDGRID EMAIL ACTION -->
+                <form id="contactme-form">
 
                     <!-- input user name -->
                     <div class="form-group pt-2">
                         <label for="cf-name">Name:</label>
                         <input type="text" name="cf-name" class="form-control form-color" id="sender-name"
-                            placeholder="what should we call ya'?">
+                            placeholder="what should we call ya'?" required>
                     </div>
 
                     <!-- input user email -->
                     <div class="form-group">
                         <label for="cf-email">E-Mail:</label>
                         <input type="email" name="cf-email" class="form-control form-color" id="sender-email"
-                            placeholder="stuff@thing.wut">
+                            placeholder="stuff@thing.wut" required>
                     </div>
 
                     <!-- input user message -->
                     <div class="form-group">
                         <label for="cf-message">Message:</label>
                         <textarea class="form-control form-color" name="cf-message" rows="10" id="sender-message"
-                            placeholder="If you're calling for the complaints department, please continue to hold..."></textarea>
+                            placeholder="If you're calling for the complaints department, please continue to hold..."
+                            required></textarea>
                     </div>
                     <div class="form-group">
 
