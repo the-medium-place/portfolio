@@ -76,3 +76,28 @@ const contents = [
         text: "this is the fourth div test"
     }
 ]
+
+$('#quote-button').on("submit", function (event){
+    event.preventDefault();
+    displayQuotes();
+ 
+})
+
+let quoteCounter = 0;
+function displayQuotes() {
+    const newIMG = $('#test-img');
+    const newTEXT = $('#test-txt');
+    
+    newTEXT.text(contents[quoteCounter].text);
+    newIMG.attr('src', contents[quoteCounter].img);
+
+    if(quoteCounter < (contents.length-1)){
+        quoteCounter++
+    } else {
+        quoteCounter = 0;
+    }
+}
+displayQuotes();
+
+
+
