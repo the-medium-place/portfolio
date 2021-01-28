@@ -4,13 +4,9 @@ Hello and welcome to my portfolio! This site is an overview of my technical back
 ## Technologies
 
 * HTML, CSS, JavaScript, JQuery
-* [Express](https://expressjs.com/)
-* [SendGrid by Twilio](http://www.sendgrid.com)
-
-## Future Plans
-
-* Convert email to PHP client
-* Refactor portfolio info box to modal on click
+* [Bootstrap](https://getbootstrap.com/) CSS Framework
+* [Express](https://expressjs.com/) Server
+* [SendGrid by Twilio](http://www.sendgrid.com) E-Mail API
 
 ## Questions
 
