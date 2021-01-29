@@ -61,7 +61,8 @@ app.post('/contactme', function ({ body }, res) {
   // Attempt to send the email
   smtpTrans.sendMail(mailOpts, (error, response) => {
     if (error) {
-      res.json(response) // Show a page indicating failure
+      console.log(response);
+      res.send(response) // Show a page indicating failure
     }
     else {
       res.send(error) // Show a page indicating success
