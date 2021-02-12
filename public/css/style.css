@@ -217,22 +217,6 @@ a:hover {
 
     /* margin-bottom: 4vw; */
 }
-/* 
-.modal {
-    color: black; 
-}
-
-.modal a {
-    color: red;
-}
-
-.modal-header, .modal-body, .modal-footer {
-    background: aqua;
-}
-
-#port-click-info {
-    height: auto;
-} */
 
 .port-logo-box {
     display: flex;

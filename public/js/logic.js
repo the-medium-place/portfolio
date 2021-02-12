@@ -17,7 +17,7 @@ let inProgress =
             "github": "https://github.com/the-medium-place/PHP_cms_project",
             "deployed": null,
             "description": "This application is serving as a vehicle for me to learn PHP.  The front end came mostly finished in a template, but all the back-end PHP is written in conjunction with the uDemy tutorial. It will allow for login as a user and as an admin, with a full dashboard of control for all admin users. ",
-            "title": "PHP CMS Project",
+            "title": "PHP CMS",
             "tagline": "",
             "screenshot": "https://i.imgur.com/NIPx948.png",
             "technologies": "HTML5, CSS3, PHP, MySQL, Bootstrap CSS"
