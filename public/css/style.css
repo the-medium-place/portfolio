@@ -1,21 +1,87 @@
+/* GLOBAL ELEMENT STYLING */
+
 body {
     position: absolute;
     background: lightgray;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     min-height: 100vh;
-    width:100%;
+    width: 100%;
     overflow: scroll;
     margin: 0 !important;
 }
 
-nav {
-    height: 4rem;
-    width: 100%;
-    background: rgb(130, 164, 238);
+h1 {
+    font-size: 3rem;
+}
 
+p, span {
+    font-size: 1.5rem;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     bottom: 0;
-    height:fit-content;
+    height: fit-content;
+    width: 100vw;
+}
+
+/* FONT STYLING */
+
+.font-header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-normal {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* GLOBAL BOX STYLING */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.testdiv {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: white 1px 1px 1px 1px;
+    margin-bottom: 12vh;
+}
+
+/* SIDE NAV STYLING */
+
+.side-nav {
+    background: white;
+    position: fixed;
+    height: 100%;
+    width: 20vw;
+    left: -20vw;
+    top:0;
+    transition: left .6s ease-in;
+}
+
+.side-nav ul {
+    list-style: none;
+}
+
+.menu-open {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+
+
+
+
+/* MASK STYLING FOR SPOTLIGHT EFFECT */
+
+.topsecret-mask {
+    min-height: 100vh;
+    min-width: 100vw;
 }

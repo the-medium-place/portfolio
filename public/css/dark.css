@@ -47,7 +47,8 @@ Scroll to the bottom to start adding your dark mode styles
 
 .top-dark-mode-button {
     position: absolute;
-    top: 60px;
+    /* top: 60px; */
+    top: 0.2rem;
     right: 15px;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
@@ -67,7 +68,7 @@ Scroll to the bottom to start adding your dark mode styles
 .top-dark-mode-button:after {
     content: 'DARK';
     position: absolute;
-    color: #fff;
+    color: #000;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -156,12 +157,14 @@ body.dark-mode .dark-toggle span {
 
 /* Begin adding your dark mode styles here, like so: */
 
+body.dark-mode .dark-toggle {}
+
 body.dark-mode {
     background: #000
 }
 
 body.dark-mode nav {
-    background: darkslategray;
+    background: rgb(40, 40, 40);
 }
 
 body.dark-mode p,
