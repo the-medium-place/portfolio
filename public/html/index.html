@@ -1,368 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <!-- link to bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-    <!-- Google Font Link -->
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara|Special+Elite&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Sketch&display=swap"
-        rel="stylesheet">
-
-    <!-- Animate on Scroll Link -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- Font Awesome Link -->
-    <script src="https://kit.fontawesome.com/8f846f10c0.js" crossorigin="anonymous"></script>
-
-    <!-- CSS link -->
+    <link rel="stylesheet" href="../css/topsecret.css">
+    <link rel="stylesheet" href="../css/dark.css">
     <link rel="stylesheet" href="../css/style.css">
-
-    <!-- Favicon Link -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="icon" type="image/png" href="favicon2.png">
+    <title>&lt;Zac Stowell Made This.&gt;</title>
 </head>
-
 <body>
-    <!-- add absolute position navbar with links to page sections below (about me, portfolio, contact) -->
-    <nav class="navbar navbar-expand-lg  navbar-dark">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                <!-- hidden spacer to center on mobile -->
-            </span>
-            <a class="navbar-brand switch-font" href="#" style="font-size: 40px">
-                Zac Stowell
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <!-- <li class="nav-item">
-                    <a href="#" class="nav-link">About Me</a>
-                </li> -->
-                <li class="nav-item">
-                    <a href="#portfolio-box" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact-form" class="nav-link">Contact</a>
-                </li>
-                <!-- <li class="nav-item icon-link">
-                    <a href="#" class="nav-link"> <i class="fa fa-facebook" target="_blank"></i></a>
-                </li> -->
-                <li class="nav-item icon-link">
-                    <a href="https://www.instagram.com/this.is.the.medium.place/" class="nav-link" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="nav-item icon-link">
-                    <a href="https://www.linkedin.com/in/zachary-stowell" class="nav-link" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="nav-item icon-link">
-                    <a href="https://github.com/the-medium-place" class="nav-link" target="_blank">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <nav>
+
     </nav>
 
 
-    <!-- start bootstrap container -->
-    <div class="container">
-
-        <!-- opening section -->
-        <div class="row top-box" style="margin-bottom: 60vh;">
-            <div class="col-md-5">
-                <p class="opening-blurb">Hello! My name is Zac and I'm a Full-Stack web developer with training from
-                    the <a href="https://bootcamp.uw.edu/">UW Coding Bootcamp</a>, where I gained experience with HTML5,
-                    CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, Database Theory, MongoDB/Mongoose,
-                    MySQL/Sequelize, Command Line, and Git. I also like to dabble in a few other languages including
-                    Python and ASL.
-                </p>
-                <!-- <p class="opening-blurb"> -->
-                <a href="./files/ZacStowell.pdf" target="_blank"><button class="btn submit-btn" value="here">View my
-                        Resume</button></a>
-                <a href="./files/ZacStowell.pdf" download="ZacStowell.pdf"><button class="btn submit-btn"
-                        value="here">Download my Resume</button></a>
-                <!-- </p> -->
-                <br>
-                <br>
-            </div>
-            <figure class="col-md-7">
-
-                <img src="../images/Seattle-Brand-Headshot-Photographer-35.jpg" class="grayscale top-img" id="top-img">
-                <figcaption>Photos by <a href="http://www.inspirebydanielle.com">Danielle Barnum Photography</a>
-                </figcaption>
-            </figure>
-        </div>
-
-        <!-- scroll to portfolio -->
-
-        <!-- Modal -->
-        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title proj-title" id="exampleModalLabel"></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="row modal-body" id="port-click-info">
-                        
-                        
-                        <div class="col-md-5">
-                            <img class="d-md-block click-img" id="click-img">
-                        </div>
-        
-                        <div class="col-md-7 info-links">
-                            <p id="project-desc" class="info-text"></p>
-                            <br>
-                            <h5 id="project-techs" class="info-text"></h5>
-                            <br>
-                            <h3 class="info-text">View the GitHub repo &lt;<a id="github" target="_blank">HERE</a>&gt;</h3>
-                            <h3 class="info-text">View the deployed project &lt;<a id="deployed" target="_blank">HERE</a>&gt;
-                            </h3>
-                        </div>
-                        
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- <div id="portfolio-box" class="portfolio-box"> -->
-        <!-- IMAGE HOVER DIV -->
-        <!-- <div class="row info-box fade-in" id="port-click-info"> -->
-        <!-- <div class="col-md-5"> -->
-        <!-- <img class="d-none d-md-block click-img" id="click-img"> -->
-        <!-- </div> -->
-
-        <!-- <div class="col-md-7 info-links"> -->
-        <!-- <div class="proj-title"></div> -->
-        <!-- <p id="project-desc" class="info-text"></p> -->
-        <!-- <br> -->
-        <!-- <h5 id="project-techs" class="info-text"></h5> -->
-        <!-- <br> -->
-        <!-- <h3 class="info-text">View the GitHub repo &lt;<a id="github" target="_blank">HERE</a>&gt;</h3> -->
-        <!-- <h3 class="info-text">View the deployed project &lt;<a id="deployed" target="_blank">HERE</a>&gt; -->
-        <!-- </h3> -->
-        <!-- </div> -->
-        <!-- </div> -->
-        <!-- <div class="port-logo-box text-center" id="logo-box">
-                <span id="port-logo" class="switch-font ">Portfolio!</span>
-                <br>
-                <p style="color: rgba(238, 238, 0, 0.719);"><strong>
-                        Click an image below to see more!
-                </p></strong>
-            </div> -->
-
-        <!-- IMAGE COLUMNS -->
-        <!-- <div class="row portfolio-container">
-                <div class="portfolio-column col">
-                    <img src="../images/screenshots/markitScreenshot-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="markit">
-                    <img src="../images/screenshots/weather-dashboard-screenshot-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me"
-                        id="weatherdashboard">
-                    <img src="../images/screenshots/workdayscheduler-screenshot-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me"
-                        id="workdayscheduler">
-                    <img src="../images/screenshots/employeeManager-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="employeemanager">
-                </div>
-                <div class="portfolio-column col">
-                    <img src="../images/screenshots/googleBooks-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="googlebooks">
-                    <img src="../images/screenshots/passwordGenerator-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="passwordgenerator">
-                    <img src="../images/screenshots/fitnessMonkey-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="fitnessmonkey">
-                    <img src="../images/screenshots/code-quiz-screenshot-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="codequiz">
-                </div>
-                <div class="portfolio-column col">
-                    <img src="../images/screenshots/toGather-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="togather">
-                    <img src="../images/screenshots/socialdistance-screenshot-crop-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me"
-                        id="socialdistance">
-                    <img src="../images/screenshots/employeeOrganizer-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="employeeOrganizer">
-                    <img src="../images/screenshots/burgerapp-min.jpeg" data-toggle="modal" data-target="#exampleModal" class="hover-me" id="burgerapp">
-                </div>
-            </div>
-        </div> -->
+    <h1>hello world!</h1>
 
 
-        <div class="row" id="portfolio-box">
-            <div class="col">
-                <div class="space-holder d-flex justify-content-center" style="min-height:450px;">
+    <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+        <span aria-hidden="true" class="dark-toggle">
+            <span class="DTspan"></span>
+        </span>
+    </button>
 
-                    <!-- PORTFOLIO PLACEHOLDER -->
-                    <div class="fade-in port-logo-box text-center" id="logo-box">
-                        <span id="port-logo" class="switch-font ">Portfolio!</span>
-                        <br>
-                        <p style="color: rgba(238, 238, 0, 0.719);"><strong>
-                                Click an image below to see more!
-                        </p></strong>
-                    </div>
+    <div style="height: 1000px;"></div>
 
 
-                    <!-- PORTFOLIO INFO DISPLAY -->
-                    <div class="fade-in row info-box" id="port-click-info">
-                        <div class="col-sm-10 col-md-5">
-                            <img class="d-none d-md-block click-img" id="click-img">
-                        </div>
-                        <div class="col-s-12 col-md-7 info-links">
-                            <div class="proj-title"></div>
-                            <p id="project-desc" class="info-text"></p>
-                            <br>
-                            <h5 id="project-techs" class="info-text"></h5>
-                            <br>
-                            <!-- <div class="btn-group" role="group" aria-label="Project Links"> -->
+    <footer>
+        <p>this is the footer!</p>
+        <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+            <span aria-hidden="true" class="dark-toggle">
+                <span class="DTspan"></span>
+            </span>
+        </button>
+    </footer>
 
-                                <a id="github" target="_blank"><button type="button"
-                                        class="btn submit-btn info-text"><i class="fa fa-github"></i> Repo</button></a>
-                                <a id="deployed" target="_blank"><button type="button"
-                                        class="btn submit-btn info-text" id="deployed-btn">Deployed App</button></a>
-                            <!-- </div> -->
-                        </div>
-                    </div><!-- end of #port-click-info div -->
-                </div> <!-- end of space-holder div -->
-            </div>
-        </div> <!-- end of portfolio row div -->
-        <div class="row">
-            <div class="col-12"><h1 class="border-bottom">Projects:</h1></div>
-            <div class="col w-100 d-flex flex-row p-2 overflow-scroll justify-content-between" id="screenshot-div">
-                <!-- DYNAMICALLY GENERATED SCREENSHOTS -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12"><h1 class="border-bottom">Works In Progress:</h1></div>
-            <div class="col w-100 d-flex flex-row p-2 overflow-scroll justify-content-around" id="wip-screenshot-div">
-                <!-- DYNAMICALLY GENERATED SCREENSHOTS -->
-            </div>
-        </div>
-
-
-
-        <!--  START CONTACT ME FORM -->
-
-        <!-- main page content row -->
-        <div class="row" id="contact-form" style="margin-top: 500px;">
-
-            <!-- content column -->
-            <div class="col-12 text-light pb-3">
-
-                <!-- content header row -->
-                <div class="row">
-
-                    <!-- full length column for header -->
-                    <div class="port-logo-box col-12 mt-4 mb-4 text-center">
-                        <h2 class="switch-font contact-logo">Reach Out</h2>
-                        <br>
-                        <p>Contact me at <a href="mailto:zgstowell@gmail.com"
-                                target="_blank"><strong>zgstowell@gmail.com</strong></a> - Or use the form below!</p>
-                        <hr>
-                    </div>
-                </div>
-                <!-- start email form -->
-
-                <!-- LINE BELOW IS FOR MAILTHIS.TO ACTION -->
-                <!-- <form action="https://mailthis.to/zgs-portfolio" method="POST" encType="multipart/form-data"> -->
-
-                <!-- LINE BELOW IS FOR PHP ACTION -->
-                <!-- <form action="./contact.php" method="POST"> -->
-
-                <!-- LINE BELOW IS FOR SENDGRID EMAIL ACTION -->
-                <form id="contactme-form">
-
-                    <!-- input user name -->
-                    <div class="form-group pt-2">
-                        <label for="cf-name">Name:</label>
-                        <input type="text" name="cf-name" class="form-control form-color" id="sender-name"
-                            placeholder="what should we call ya'?" required>
-                    </div>
-
-                    <!-- input user email -->
-                    <div class="form-group">
-                        <label for="cf-email">E-Mail:</label>
-                        <input type="email" name="cf-email" class="form-control form-color" id="sender-email"
-                            placeholder="stuff@thing.wut" required>
-                    </div>
-
-                    <!-- input user message -->
-                    <div class="form-group">
-                        <label for="cf-message">Message:</label>
-                        <textarea class="form-control form-color" name="cf-message" rows="10" id="sender-message"
-                            placeholder="If you're calling for the complaints department, please continue to hold..."
-                            required></textarea>
-                            <!-- HIDDEN INPUTS FOR ACTION AFTER -->
-                        <input type="hidden" name="_subject" value="Contact form submitted">
-                        <input type="hidden" name="_after" value="http://localhost:8080">
-                        <!-- <input type="hidden" name="_honeypot" value="">
-                        <input type="hidden" name="_confirmation" value=""> -->
-                    </div>
-
-                    <!-- submit button -->
-                    <input type="submit" class="btn submit-btn" value="Send It!">
-                </form>
-                <br>
-                <br>
-                <br>
-            </div>
-        </div>
-    </div> <!-- end of container div -->
-
-
-    <!-- side nav bar -->
-    <!-- <div class="side-nav">
-        <div class="side-bar-invis"></div>
-        <a href="#" class="nav-link"> <i class="fas fa-envelope-square"></i></a>
-        <a href="#" class="nav-link"> <i class="fa fa-facebook"></i></a>
-        <a href="#" class="nav-link"> <i class="fa fa-instagram"></i></a>
-        <a href="#" class="nav-link"> <i class="fa fa-linkedin"></i></a>
-        <a href="#" class="nav-link"> <i class="fa fa-github"></i></a>
-    </div> -->
-
-    <!-- back to top button -->
-    <div class="top-button">
-        <a href="#"><i class="fas fa-arrow-up"></i> Back to Top</a>
-    </div>
-
-    <!-- bootstrap JS links -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-    <!-- JQUERY CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <!-- Animate on Scroll JS link -->
-    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js">
-        AOS.init();
-    </script> -->
-    <script type="text/javascript" src="../js/projects.json"></script>
-    <script src="../js/logic.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="../js/darkmode.js"></script>
+    <script src="../js/index.js"></script>
 </body>
-
 </html>
