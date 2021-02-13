@@ -1,74 +1,53 @@
-:root{
+:root {
     --mouse-X: center;
     --mouse-Y: center;
     --clip-position: center;
+    --clip-size: 300px;
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
-    background: salmon;
+    /* background: rgba(20, 20, 20); */
+    background-color: black;
+    z-index: 1;
+}
 
+#body-mask, #flashlight {
+    display: none;
 }
 
 
-#body-mask {
-display:none;
-
+img:hover {
+    z-index: 3;
 }
 
-@supports (-webkit-clip-path: circle(150px at center)) or (clip-path: circle(150px at center)) {
-
+@supports (-webkit-clip-path: circle(calc(var(--clip-size) / 2) at center)) or (clip-path: circle(calc(var(--clip-size) / 2) at center)) {
     #body-mask {
-      display: block;
-      background: rgb(200, 200, 200);
-      position: fixed;
-      height: 100vh;
-      width: 100vw;
-
-      -webkit-clip-path: circle(150px at var(--clip-position) );
-      clip-path: circle(150px at var(--clip-position) );
+        display: block;
+        background: rgb(200, 200, 200);
+        /* background: transparent; */
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        -webkit-clip-path: circle(calc(var(--clip-size) / 2) at var(--clip-position));
+        clip-path: circle(calc(var(--clip-size) / 2) at var(--clip-position));
+        z-index: 2;
     }
-    
-  }
-
-
-
-/* background-image: url('http://medoragroup.com/temp/circle-knockout.png'); */
-#flashlight {
-    
-    height: 300px; 
-    width: 300px; 
-    background: rgb(200, 200, 200); 
-    border-radius: 50%;
-    background: radial-gradient(
-        circle farthest-corner at center center,
-        rgba(250, 250, 250, 0.3),
-        rgba(20, 20, 20, 0.5)
-      ) no-repeat;
+    #flashlight {
+        cursor:none;
+        display:block;
+        height: 300px;
+        width: 300px;
+        background: rgb(200, 200, 200);
+        border-radius: 50%;
+        /* background:transparent; */
+        background: radial-gradient(circle farthest-corner at center center, rgba(255, 255, 200, 0.6), rgba(20, 20, 20, 0.9)) no-repeat;
+        box-shadow: inset black 0px 0px 25px 25px;
+        /* border: 1rem solid black; */
+        position: fixed;
+        top: var(--mouse-Y);
+        left: var(--mouse-X);
+        z-index: 3;
+    }
 }
-
-/* #knockout {
-    background-image: url(http://i.stack.imgur.com/AXHM0.png);
-    width: 105px;
-    height: 180px;
-    margin: 0 auto;    
-} */
-
-/* #flashlight:before{
-    content: " ";
-    position: absolute;
-    left: -52px;
-    width: 50%;
-    height: 100px;
-    background-color: #000;
-}
-
-#flashlight:after{
-    content: " ";
-    position: absolute;
-    right: -52px;
-    width: 50%;
-    height: 100px;
-    background-color: #000;
-} */
