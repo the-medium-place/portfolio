@@ -18,9 +18,6 @@ body {
 }
 
 
-img:hover {
-    z-index: 3;
-}
 
 @supports (-webkit-clip-path: circle(calc(var(--clip-size) / 2) at center)) or (clip-path: circle(calc(var(--clip-size) / 2) at center)) {
     #body-mask {
@@ -33,6 +30,7 @@ img:hover {
         -webkit-clip-path: circle(calc(var(--clip-size) / 2) at var(--clip-position));
         clip-path: circle(calc(var(--clip-size) / 2) at var(--clip-position));
         z-index: 2;
+        
     }
     #flashlight {
         cursor:none;

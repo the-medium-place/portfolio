@@ -27,6 +27,21 @@ app.get('/test', (req, res) => {
   res.sendFile(path.join(__dirname, "/public/html/test.html"))
 })
 
+app.get('/contact', (req, res)=>{
+  res.sendFile(path.join(__dirname, "/public/html/contact.html"))
+
+})
+
+app.get('/portfolio', (req,res) => {
+ res.sendFile(path.join(__dirname, "/public/html/portfolio.html"));
+})
+
+app.get('/getprojects', (req,res)=>{
+  const projects = require('./public/js/projects.json');
+  const wip = require('./public/js/wip.json');
+  res.json({projects, wip});
+})
+
 app.get('/api/projects', (req, res) => {
   console.log('hitting the /api/projects route')
   res.status(200).sendFile(path.join(__dirname, "/public/js/projects.json"))
@@ -61,11 +76,11 @@ app.post('/contactme', function ({ body }, res) {
   // Attempt to send the email
   smtpTrans.sendMail(mailOpts, (error, response) => {
     if (error) {
-      console.log(response);
-      res.send(response) // Show a page indicating failure
+      console.log(error);
+      res.send(error) // Show a page indicating failure
     }
     else {
-      res.send(error) // Show a page indicating success
+      res.send(response) // Show a page indicating success
     }
   })
 
